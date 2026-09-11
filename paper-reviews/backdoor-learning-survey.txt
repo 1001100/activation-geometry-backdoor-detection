@@ -1,0 +1,39 @@
+Title: Backdoor Learning: A Survey
+
+Author(s): Yiming Li et al.
+
+Link: arXiv.2007.08745
+
+Core Idea: Claimed first of kind comprehensive literature review on the topic of backdoors. This includes definitions, syntax, and equations, as well as all attacks and defenses published. Directly relevant to project and the best guide to exploring literature  in field currently
+
+Method: N/A
+
+Most widely adopted attacks consist of poisoning training samples to encode backdoor functionality. 
+
+Empirical Backdoor Defense: Defenses proposed based on the analysis or understanding of the weakness of the attack have decent performance in practice; however, their effectiveness have no theoretical guarantee and may probably be bypassed by some adaptive attacks
+
+Certified Backdoor Defence: theoretically guaranteed under certain assumptions, whereas its performance is generally weaker than that of empirical defenses in practice since those assumptions are usually unsatisfied
+
+Risk Scenarios: Adopt third party datasets, third party platforms, third party models
+- Each present different levels of risk to user, opportunity for defense, and control to attacker
+
+A unified framework of poisoning-based attacks
+- equations and paragraphs quantifying risk for attacks (reference briefly toward attack stealthiness or complexity)
+
+Evaluation metrics: Benign accuracy, attack success rate
+
+Poison based attack types: 
+- Badnets (Gu et al.)
+- Invisible backdoor attacks: (Chen et al.), (Zhong et al.), (Liu et al., common phenomenon as attack), (Turner et al., clean label attack)
+- Optimized backdoor attacks: (Li et al. [11] bi-level optimization) + [39][40][48]
+- Semantic backdoor attacks: - attacks without modifying image (Bagdasaryan et al.)
+- Sample specific backdoor attacks: (Nguyen et al.[62]), (Li et al.)
+- Physical backdoor attacks: (Chen et al.), (Li et al.)
+
+Non poison based attacks types:
+- Weights oriented attacks: (Dumford et al.), (Garg et al.), (Rakin et al.), (Zhang et al.), (Guo et al., NP-complete reference)
+- Structure modified backdoor attacks:
+
+
+Image classification, then natural language processing is the most extensively researched domains of backdoor attacks
+
