@@ -34,6 +34,19 @@ Non poison based attacks types:
 - Weights oriented attacks: (Dumford et al.), (Garg et al.), (Rakin et al.), (Zhang et al.), (Guo et al., NP-complete reference)
 - Structure modified backdoor attacks:
 
+Adversarial attack: Need control of the inference process (to certain extent) but not training process. This includes querying model results or gradients multiple times
+  - Vulnerabilities result in the differences between behaviours of models and humans
+Backdoor attack: Requires control of training stages (to some extent) but not inference process.
+  - Utilize learning ability of neural networks to build connection between trigger and label
+
+Classical data poisoning: reduce model generalization
+Advanced data poisoning: retain generalization, reduce performance of specific targeted samples
+
+
+
+
 
 Image classification, then natural language processing is the most extensively researched domains of backdoor attacks
+
+
 

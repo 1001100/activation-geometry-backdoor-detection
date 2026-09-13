@@ -1,0 +1,19 @@
+Title: Badnets: Evaluating Backdooring Attacks on Depp Neural Networks
+
+Author(s): Tianyu Gu, Kang Liu, Brendan Dolan-Gavitt, Siddharth Garg
+
+Link: 10.1109/ACCESS.2019.2909068
+
+Core Idea: introducing a badnets attack among different datasets with real world consequences
+
+Method: 
+- MNIST:
+  - Single pixel backdoor
+    Pattern pixel backdoor
+- Traffic Sign Detection Attack
+  - Yellow square
+  - images of bomb and flower
+
+Relevance: Will directly implement this as an attack, relatively understandable. This will also be covered within the backdoorbench literature, and further explainable within the code. Cite attack goals and results, indicating effectiveness of the attack to be reproduced
+
+Limitations/Questions/Concerns: NA
